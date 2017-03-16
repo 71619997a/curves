@@ -1,3 +1,9 @@
+run:
+	python transform.py < dwscript
+
+gbm:
+	python transform.py < gbmscript
+
 margif:
 	python triangle.py
 	convert -loop 0 -delay 5 animar/{0..71}.ppm mario.gif
